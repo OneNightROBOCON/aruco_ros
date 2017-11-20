@@ -29,11 +29,14 @@ catkin_make --pkg ros_aruco -DARUCO_PATH=/usr/local
 ```
 rosrun uvc_camera uvc_camera_node
 ```
+キャリブレーションパラメータが必要なので、済ませておく
 ## aruco_rosを実行
 ```
 rosrun ros_aruco ros_aruco
 ```
+コード内にyaml形式のキャリブレーションパラメータのパスを入力するところがあるので、使用するカメラにより変更が必要
 
+（できらたtopicでcamera_infoとして受け取りたい）
 # 残務
 -- キャリブレーション方法の提示
 
