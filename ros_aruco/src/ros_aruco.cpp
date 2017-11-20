@@ -120,7 +120,7 @@ int main(int argc,char **argv) {
 	float TheMarkerSize; //select the marker size (in m) by measuring it
 	TheCameraParameters.readFromXMLFile("/home/okada/catkin_ws/src/aruco_ros/ros_aruco/data/ost.yaml");  //20171116 added by T.Okada
 	TheCameraParameters.resize(current_image.size());
-	TheMarkerSize=0.05; //20171116 added by T.Okada
+	TheMarkerSize=0.02; //20171116 added by T.Okada
 
 	cv::namedWindow("ROS ARUCO", 1);  
 	MDetector.setThresholdParams(7, 7);  
