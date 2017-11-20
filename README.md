@@ -26,5 +26,10 @@ catkin_make --pkg ros_aruco -DARUCO_PATH=/usr/local
 
 # 実行手順
 ## カメラを起動
-
+```
+rosrun uvc_camera uvc_camera_node
+```
 ## aruco_rosを実行
+```
+rosrun aruco_ros aruco_ros
+```
