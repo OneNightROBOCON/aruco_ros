@@ -2,7 +2,7 @@
 arReader for ROS
 # 導入手順
 ## arucoライブラリをインストール
-以下のURLからaaruco-2.0.19.zipをダウンロード　※バージョンは都度変更する可能性あり
+以下のURLからaruco-2.0.19.zipをダウンロード　※バージョンは都度変更する可能性あり
 
 https://sourceforge.net/projects/aruco/files/2.0.19/
 
