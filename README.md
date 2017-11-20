@@ -33,3 +33,8 @@ rosrun uvc_camera uvc_camera_node
 ```
 rosrun ros_aruco ros_aruco
 ```
+
+# 残務
+-- キャリブレーション方法の提示
+-- camera_infoをsubscribeするように変換
+　　現状はキャリブレーションファイルのパスをコードに直打ちしている
