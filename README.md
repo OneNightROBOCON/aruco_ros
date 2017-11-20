@@ -31,5 +31,5 @@ rosrun uvc_camera uvc_camera_node
 ```
 ## aruco_rosを実行
 ```
-rosrun aruco_ros aruco_ros
+rosrun ros_aruco ros_aruco
 ```
